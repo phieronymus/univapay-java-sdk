@@ -83,8 +83,8 @@ public class ConfigurationBuilder<T extends ConfigurationRequest> implements Bui
     return this;
   }
 
-  public ConfigurationBuilder withMaxPayoutPeriod(List<MoneyLike> maxPayoutPeriod) {
-    this.maximumChargeAmounts = maxPayoutPeriod;
+  public ConfigurationBuilder withMaximumChargeAmounts(List<MoneyLike> maximumChargeAmounts) {
+    this.maximumChargeAmounts = maximumChargeAmounts;
     return this;
   }
 
